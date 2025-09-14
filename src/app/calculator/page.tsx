@@ -183,7 +183,7 @@ export default function Calculator() {
             </span>
           </h1>
           <p className="text-lg text-purple-200 max-w-2xl mx-auto">
-            Discover the mystical compatibility between your baby's name and birth date using ancient numerology wisdom.
+            Discover the mystical compatibility between your baby&apos;s name and birth date using ancient numerology wisdom.
           </p>
         </div>
 
@@ -387,7 +387,7 @@ export default function Calculator() {
               </div>
               <div>
                 <h4 className="font-semibold text-white mb-2">🌟 Life Path</h4>
-                <p className="text-sm">Your life path number calculated from the complete birth date, representing your soul's journey and ultimate life purpose.</p>
+                <p className="text-sm">Your life path number calculated from the complete birth date, representing your soul&apos;s journey and ultimate life purpose.</p>
               </div>
             </div>
           </div>

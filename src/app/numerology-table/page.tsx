@@ -248,12 +248,12 @@ export default function NumerologyTable() {
 
     // Apply sorting
     filtered.sort((a, b) => {
-      let aValue: any = a[sortField];
-      let bValue: any = b[sortField];
+      let aValue: string | number = a[sortField];
+      let bValue: string | number = b[sortField];
 
       if (sortField === 'name') {
-        aValue = aValue.toLowerCase();
-        bValue = bValue.toLowerCase();
+        aValue = (aValue as string).toLowerCase();
+        bValue = (bValue as string).toLowerCase();
       }
 
       if (sortDirection === 'asc') {
@@ -279,11 +279,7 @@ export default function NumerologyTable() {
     setEntries(prev => prev.filter(entry => entry.id !== id));
   };
 
-  const clearAllEntries = () => {
-    if (window.confirm('Are you sure you want to clear all entries? This action cannot be undone.')) {
-      setEntries([]);
-    }
-  };
+  // Removed unused clearAllEntries function
 
   const getCompatibilityColor = (compatibility: number) => {
     if (compatibility >= 75) return 'text-green-400';

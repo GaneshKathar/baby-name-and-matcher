@@ -8,7 +8,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 bg-clip-text text-transparent">
-                Discover Your Baby's
+                Discover Your Baby&apos;s
               </span>
               <br />
               <span className="bg-gradient-to-r from-purple-300 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
@@ -17,7 +17,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg sm:text-xl text-purple-200 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Unlock the mystical power of numerology to find names that align with your child's destiny.
+              Unlock the mystical power of numerology to find names that align with your child&apos;s destiny.
               Combine ancient wisdom with modern insights for the perfect match.
             </p>
 
@@ -48,7 +48,7 @@ export default function Home() {
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300">
                 <div className="text-3xl mb-4">🔮</div>
                 <h3 className="text-xl font-semibold text-white mb-2">Destiny Numbers</h3>
-                <p className="text-purple-200 text-sm">Calculate life path numbers and find names that resonate with your child's cosmic energy.</p>
+                <p className="text-purple-200 text-sm">Calculate life path numbers and find names that resonate with your child&apos;s cosmic energy.</p>
               </div>
 
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300">

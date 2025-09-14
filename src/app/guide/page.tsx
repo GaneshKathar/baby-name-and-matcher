@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Guide() {
   return (
     <div className="min-h-screen">
@@ -22,12 +24,12 @@ export default function Guide() {
             >
               🧮 Try Calculator
             </a>
-            <a 
+            <Link
               href="/"
               className="px-6 py-2 border-2 border-purple-400 text-purple-200 font-semibold rounded-full hover:bg-purple-400/10 transition-all duration-300"
             >
               🏠 Home
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -51,7 +53,7 @@ export default function Guide() {
                 </div>
                 <p className="text-green-100 text-sm mb-3">
                   Both your Mulank (day number) and Bhagyank (life path) are in perfect harmony with the name number. 
-                  This creates a powerful synergy that supports the child's natural talents and life purpose.
+                  This creates a powerful synergy that supports the child&apos;s natural talents and life purpose.
                 </p>
                 <div className="text-xs text-green-200">
                   <strong>Benefits:</strong> Enhanced intuition, natural leadership, strong self-confidence, 
@@ -127,14 +129,14 @@ export default function Guide() {
                   <h4 className="font-semibold text-indigo-300 mb-2">🌅 Mulank (Day Number)</h4>
                   <p className="text-indigo-100">
                     Represents your core personality, natural instincts, and how you approach daily life. 
-                    It's your immediate response to situations and your surface-level characteristics.
+                    It&apos;s your immediate response to situations and your surface-level characteristics.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-purple-300 mb-2">🌟 Bhagyank (Life Path)</h4>
                   <p className="text-purple-100">
-                    Your soul's journey and life purpose. It represents the lessons you're here to learn, 
-                    your spiritual path, and the ultimate direction of your life's work.
+                    Your soul&apos;s journey and life purpose. It represents the lessons you&apos;re here to learn,
+                    your spiritual path, and the ultimate direction of your life&apos;s work.
                   </p>
                 </div>
                 <div>
@@ -166,8 +168,8 @@ export default function Guide() {
                   overcome. They often represent areas of growth and learning through adversity.
                 </p>
                 <p className="text-xs text-purple-200 mt-4 italic">
-                  Remember: Numerology is a guide for self-understanding and reflection. Every number combination 
-                  has its own unique gifts and challenges that contribute to a person's complete spiritual journey.
+                  Remember: Numerology is a guide for self-understanding and reflection. Every number combination
+                  has its own unique gifts and challenges that contribute to a person&apos;s complete spiritual journey.
                 </p>
               </div>
             </div>
@@ -365,7 +367,7 @@ export default function Guide() {
                 <h3 className="font-semibold text-cyan-300 mb-4">📝 Example Calculation</h3>
                 <div className="bg-white/5 rounded-lg p-4 space-y-3 text-sm">
                   <div>
-                    <p className="text-cyan-200"><strong>Name:</strong> "ARYA"</p>
+                    <p className="text-cyan-200"><strong>Name:</strong> &quot;ARYA&quot;</p>
                     <p className="text-white">A(1) + R(2) + Y(1) + A(1) = 5</p>
                     <p className="text-cyan-100">Name Number: <strong>5</strong></p>
                   </div>
@@ -391,14 +393,14 @@ export default function Guide() {
                     <div className="text-yellow-400 mt-1">✨</div>
                     <div>
                       <p className="text-white font-medium">Consider Multiple Names</p>
-                      <p className="text-cyan-100">Test several name options to find the best compatibility match for your child's birth date.</p>
+                      <p className="text-cyan-100">Test several name options to find the best compatibility match for your child&apos;s birth date.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="text-yellow-400 mt-1">🎯</div>
                     <div>
                       <p className="text-white font-medium">Balance is Key</p>
-                      <p className="text-cyan-100">A 75% match might be better than 100% if it provides more balanced energy for your child's personality.</p>
+                      <p className="text-cyan-100">A 75% match might be better than 100% if it provides more balanced energy for your child&apos;s personality.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

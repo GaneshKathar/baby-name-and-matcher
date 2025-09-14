@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full h-20 bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 shadow-lg backdrop-blur-sm border-b border-purple-500/20 z-50">
       <div className="container mx-auto h-full flex items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo and Brand */}
-        <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           {/* Mystical Logo */}
           <div className="relative">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center shadow-lg">
@@ -27,7 +28,7 @@ export default function Header() {
               Destiny • Names • Numbers
             </p>
           </div>
-        </a>
+        </Link>
 
         {/* Navigation */}
         <nav className="flex items-center gap-4">
@@ -46,12 +47,6 @@ export default function Header() {
               Multi Name Calculator
             </a>
             <a
-              href="#about"
-              className="text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium"
-            >
-              About
-            </a>
-            <a
               href="/guide"
               className="text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium"
             >
@@ -61,7 +56,7 @@ export default function Header() {
 
           {/* GitHub Link */}
           <a
-            href="#github"
+            href="https://github.com/GaneshKathar/baby-name-and-matcher"
             className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-200 text-white text-sm font-medium backdrop-blur-sm border border-white/20"
             title="View on GitHub"
           >
