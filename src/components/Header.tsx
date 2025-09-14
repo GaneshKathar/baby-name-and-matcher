@@ -9,7 +9,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full h-20 bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 shadow-lg backdrop-blur-sm border-b border-purple-500/20 z-50">
       <div className="container mx-auto h-full flex items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo and Brand */}
-        <div className="flex items-center gap-3">
+        <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           {/* Mystical Logo */}
           <div className="relative">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center shadow-lg">
@@ -17,7 +17,7 @@ export default function Header() {
             </div>
             <div className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-yellow-400 animate-pulse"></div>
           </div>
-          
+
           {/* Brand Name */}
           <div className="flex flex-col">
             <h1 className="text-xl font-bold bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 bg-clip-text text-transparent">
@@ -27,17 +27,23 @@ export default function Header() {
               Destiny • Names • Numbers
             </p>
           </div>
-        </div>
+        </a>
 
         {/* Navigation */}
         <nav className="flex items-center gap-4">
           {/* Navigation Links */}
           <div className="hidden md:flex gap-6">
             <a
-              href="#calculator"
+              href="/calculator"
               className="text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium"
             >
               Calculator
+            </a>
+            <a
+              href="/numerology-table"
+              className="text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium"
+            >
+              Multi Name Calculator
             </a>
             <a
               href="#about"
@@ -46,7 +52,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#guide"
+              href="/guide"
               className="text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium"
             >
               Guide
@@ -83,11 +89,18 @@ export default function Header() {
         <div className="md:hidden absolute top-20 left-0 w-full bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 border-b border-purple-500/20 backdrop-blur-sm">
           <div className="container mx-auto px-4 py-4 space-y-3">
             <a
-              href="#calculator"
+              href="/calculator"
               className="block text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Calculator
+            </a>
+            <a
+              href="/numerology-table"
+              className="block text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Multi Name Calculator
             </a>
             <a
               href="#about"
@@ -97,7 +110,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#guide"
+              href="/guide"
               className="block text-purple-200 hover:text-yellow-300 transition-colors duration-200 text-sm font-medium py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >

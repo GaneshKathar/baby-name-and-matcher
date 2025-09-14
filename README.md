@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔮 Numerology Calculator
+
+A modern, responsive web application that calculates name and birth date compatibility using traditional numerology principles. Built with React and optimized for both desktop and mobile devices.
 
 ## Getting Started
 

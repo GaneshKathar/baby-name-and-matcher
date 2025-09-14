@@ -23,12 +23,24 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <button className="mystical-glow px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
+              <a
+                href="/calculator"
+                className="mystical-glow px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 inline-block text-center"
+              >
                 ✨ Start Calculator
-              </button>
-              <button className="px-8 py-4 border-2 border-purple-400 text-purple-200 font-semibold rounded-full hover:bg-purple-400/10 transition-all duration-300">
+              </a>
+              <a
+                href="/numerology-table"
+                className="mystical-glow px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 text-white font-semibold rounded-full hover:from-green-700 hover:to-teal-700 transition-all duration-300 transform hover:scale-105 inline-block text-center"
+              >
+                📋 Compare Names
+              </a>
+              <a
+                href="/guide"
+                className="px-8 py-4 border-2 border-purple-400 text-purple-200 font-semibold rounded-full hover:bg-purple-400/10 transition-all duration-300 inline-block text-center"
+              >
                 📖 Learn About Numerology
-              </button>
+              </a>
             </div>
 
             {/* Feature Cards */}
